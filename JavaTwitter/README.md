@@ -1,11 +1,14 @@
+## Usage
+
 To make code compile, create file in root directory called twitter4j.properties and add the 
 following:
 
-"debug=true  
+```bash
+debug=true  
 oauth.consumerKey=*******
 oauth.consumerSecret=******
 oauth.accessToken=********
-oauth.accessTokenSecret=*********"
+oauth.accessTokenSecret=*********
+```
 
-Run main in GetTweets to play game.
-
+Run main in GetTweets to play game (can use command line or an IDE).
