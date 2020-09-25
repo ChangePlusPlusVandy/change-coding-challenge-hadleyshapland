@@ -12,3 +12,6 @@ oauth.accessTokenSecret=*********
 ```
 
 Run main in GetTweets to play game (can use command line or an IDE).
+
+## Example Run
+![](Run_Example.png)
