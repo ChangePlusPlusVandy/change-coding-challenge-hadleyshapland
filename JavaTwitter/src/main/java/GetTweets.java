@@ -12,7 +12,7 @@ public class GetTweets {
     Twitter twitter = new TwitterFactory().getInstance();
     List<Status> allTweets = new ArrayList<Status>();
     Paging p = new Paging();
-    p.setCount(3000);
+    p.setCount(3000); //get 3000 tweets from each user
 
     try {
       allTweets.addAll(twitter.getUserTimeline("ElonMusk", p));
